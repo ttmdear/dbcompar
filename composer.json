@@ -1,0 +1,33 @@
+{
+    "name": "ttmdear/dbcompar",
+    "description": " The script synchronizes databases structure.",
+    "keywords": ["database", "sql", "DML", "DDL", "mysql", "synchronizes"],
+    "type" : "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ttmdear",
+            "email": "ttmdear@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/console": "^3",
+        "ttmdear/midata" : "^1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dbcompar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "files" : [
+            "tests/Base.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+/doc/api/
+/doc/codecover/
+/vendor/
+composer.lock

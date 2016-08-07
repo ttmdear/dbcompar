@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <omitAttributes>
+        <column>collation</column>
+    </omitAttributes>
+
+    <omitTables></omitTables>
+
+    <databases>
+        <database name="source">
+            <adapter>mysql</adapter>
+            <host>localhost</host>
+            <dbname>bookstore_source</dbname>
+            <username>root</username>
+            <password></password>
+        </database>
+        <database name="target">
+            <adapter>mysql</adapter>
+            <host>localhost</host>
+            <dbname>bookstore_target</dbname>
+            <username>root</username>
+            <password></password>
+        </database>
+    </databases>
+</config>
